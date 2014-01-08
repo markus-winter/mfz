@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Mitfahrzentrale</title>
+	<link rel="stylesheet" type="text/css" href="formate.css">
+</head>
+<body>
+<script language="javascript" src="MenueZeile.js"></script> 
+<script type="text/javascript" src="MenueZeile_Suche.js"></script>
+<script type="text/javascript" src="MenueZeile_xEnd.js"></script>
+<h2>Suche Mitfahrgelegenheit</h2>
+<p>Füllen Sie die Angaben aus, um Angebote von Mitfahrgelegenheiten zu erhalten. 
+Sie erhalten die Angebote per Mail. Sobald Sie ein Angebot annehmen, wird die 
+Vermittlungsgebühr von 1.- fällig und Sie erhalten die Kontaktdaten. <br><button>Guteschein für kostenlose Vermittlung holen</button></p>
+
+<form method="POST" action="--WEBBOT-SELF--">
+	<p>Von Adresse:<br>
+<input type="text"></p>
+
+<p>Nach Adresse:<br>
+<input type="text"></p>
+
+<fieldset style="padding: 2">
+<legend>Datum</legend>
+  <input type="radio" name="Wann" value="1">Einmalig am:<input type="text"><br>
+  <input type="radio" name="Wann" value="1">Werktags (mo-fr)<br>
+  <input type="radio" name="Wann" value="1">Samstags<br>
+  <input type="radio" name="Wann" value="1">Sonntags<br>
+  <input type="radio" name="Wann" value="1">Wöchentlich am:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="ddWoechentlich" size="7">
+																				<option value="1">Montag</option>
+																				<option value="2">Dienstag</option>
+																				<option value="3">Mittwoch</option>
+																				<option value="4">Donnerstag</option>
+																				<option value="5">Freitag</option>
+																				<option value="6">Samstag</option>
+																				<option value="7">Sonntag</option>
+																				</select><br>
+</fieldset> 
+
+<p>Anzahl Personen:<br>
+<input type="text"></p>
+
+<p>Anzahl Handgepäck:<br>
+<input type="text"></p>
+
+<p>Anzahl Reisetaschen:<br>
+<input type="text"></p>
+
+<p>E-Mail Adresse:<br>
+<input type="text"></p>
+
+
+
+<p><input type="submit" value="Speichern" name="B1"></p>
+</form>
+
+<p>&nbsp;</p>
+</body>
+</html>

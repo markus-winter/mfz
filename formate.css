@@ -1,0 +1,20 @@
+h1,.Titel	{ font-size:300%;
+     color:red;
+     font-style:italic;
+     border-bottom:solid thin black; }
+     
+p,li  { font-size:110%;
+        line-height:140%;
+        font-family:Helvetica,Arial,sans-serif;
+        letter-spacing:0.1em;
+        word-spacing:0.3em; }
+        
+.menuZeile {}
+        
+.menuAktiv { background-color:#FFFF00}
+
+.menuInaktiv { background-color:silver}
+
+.menuBtn {
+		width:	250px;
+	}
